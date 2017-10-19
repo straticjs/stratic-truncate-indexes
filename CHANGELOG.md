@@ -2,7 +2,7 @@
 
 `stratic-truncate-indexes` follows [Semantic Versioning][1].
 
-## 1.0.0 - future
+## 1.0.0 - 2017-10-19
 
 ### Added
 
