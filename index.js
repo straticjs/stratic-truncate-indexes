@@ -17,8 +17,13 @@
 
 var through2 = require('through2');
 
-module.exports = function() {
+module.exports = function(num) {
+	num = num || 15;
+
 	return through2.obj(function(file, enc, callback) {
+		file.data.posts = file.data.posts.slice(0, num);
+
+		this.push(file);
 		callback();
 	});
 };
