@@ -26,7 +26,7 @@ var addsrc = require('gulp-add-src');
 var straticPostsToIndex = require('stratic-posts-to-index');
 var straticTruncateIndexes = require('stratic-truncate-indexes');
 
-gulp.task('post-index', function() {
+gulp.task('rss', function() {
     gulp.src('*.md')
         .pipe(straticParseHeader())
         .pipe(straticDateInPath())
@@ -50,7 +50,7 @@ var straticTruncateIndexes = require('stratic-truncate-indexes');
 var straticIndexesToRss = require('stratic-indexes-to-rss');
 var rename = require('gulp-rename');
 
-gulp.task('post-index', function() {
+gulp.task('rss', function() {
     gulp.src('*.md')
         .pipe(frontmatter())
         .pipe(remark().use(remarkHtml))
