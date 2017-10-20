@@ -1,6 +1,6 @@
 {
   "name": "stratic-truncate-indexes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp plugin to to truncate Stratic indexes to a specific number of posts",
   "main": "index.js",
   "scripts": {
