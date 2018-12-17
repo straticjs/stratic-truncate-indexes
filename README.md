@@ -28,7 +28,7 @@ var straticTruncateIndexes = require('stratic-truncate-indexes');
 
 gulp.task('rss', function() {
     gulp.src('*.md')
-        .pipe(straticParseHeader())
+        .pipe(frontmatter())
         .pipe(straticDateInPath())
         .pipe(addsrc('src/blog/index.jade'))
         .pipe(straticPostsToIndex('index.jade'))
