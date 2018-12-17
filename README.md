@@ -73,5 +73,5 @@ LGPL 3.0+
 AJ Jordan <alex@strugee.net>
 
  [1]: http://gulpjs.com/
- [2]: https://github.com/strugee/generator-stratic
+ [2]: https://github.com/straticjs/generator-stratic
  [`stratic-indexes-to-rss`]: https://github.com/straticjs/stratic-indexes-to-rss
